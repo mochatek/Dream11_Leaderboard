@@ -10,10 +10,10 @@ along with their corresponding team details from the Dream11 site and provide th
 
 Dream11 site requires us to **login** to our contest inorder to view these details, through our **registered mobile number** and **OTP**.
 So, for scraping these details multiple times in between the match requires us to login every time. As authorization is done using OTP, 
-this task will be very annoying. So we need to persist our login session through cookies. So, first run the script (**Dream11_login.py**)
+this task will be very annoying. So we need to persist our login session through cookies. So, first run the script [Dream11_login.py](https://github.com/mochatek/Dream11_Leaderboard/blob/master/Dream11_login.py)
 and login as you normally do. This script will grab and export the cookie into a text file (*cookie.txt*).
 
-Now run the script (**Dream11_crawler.py**) which loads the cookie from **cookie.txt**, inorder to bypass the login process.
+Now run the script [Dream11_crawler.py](https://github.com/mochatek/Dream11_Leaderboard/blob/master/Dream11_crawler.py), which loads the cookie from **cookie.txt**, inorder to bypass the login process.
 Give it a few time to scrap the necessary details from the site. You can view the entire automation happening in your web browser.
 Once the task is completed, you will see an excel file (**DREAM11.xlsx**), containing all the details.
 
