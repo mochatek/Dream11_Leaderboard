@@ -8,7 +8,7 @@ So, users won't be able to check the teams of other players from the begining. W
 to view their team details which take huge amount of work and time. This python script automates these tasks and scraps the leaderboard 
 along with their corresponding team details from the Dream11 site and provide the details in an excel file.
 
-**Dream11 site requires us to login to our contest inorder to view these details, through our registered mobile number and OTP**
+**:information_source: Dream11 site requires us to login to our contest inorder to view these details, through our registered mobile number and OTP**
 
 So, for scraping these details multiple times in between the match requires us to login every time. As authorization is done using OTP, 
 this task will be very annoying. So we need to persist our login session through cookies. So, first run the script (**Dream11_login.py**)
@@ -18,8 +18,8 @@ Now run the script (**Dream11_crawler.py**) which loads the cookie from **cookie
 Give it a few time to scrap the necessary details from the site. You can view the entire automation happening in your web browser.
 Once the task is completed, you will see an excel file (**DREAM11.xlsx**), containing all the details.
 
-**Scraping time depends on the numbers of players participating in the contest**
-**Do not tamper with the site elements while script is running**
+**:timer_clock: Scraping time depends on the numbers of players participating in the contest**
+**:warning: Do not tamper with the site elements while script is running**
 
 ## Requirements :
   - **Selenium**  :point_right: [(Read DOC)](https://selenium-python.readthedocs.io/)
