@@ -8,7 +8,7 @@ So, users won't be able to check the teams of other players from the begining. W
 to view their team details which take huge amount of work and time. This python script automates these tasks and scraps the leaderboard 
 along with their corresponding team details from the Dream11 site and provide the details in an excel file.
 
-Dream11 site requires us to login to our contest inorder to view these details, through our registered mobile number and OTP.:information_source:
+Dream11 site requires us to **login** to our contest inorder to view these details, through our **registered mobile number** and **OTP**.
 So, for scraping these details multiple times in between the match requires us to login every time. As authorization is done using OTP, 
 this task will be very annoying. So we need to persist our login session through cookies. So, first run the script (**Dream11_login.py**)
 and login as you normally do. This script will grab and export the cookie into a text file (*cookie.txt*).
